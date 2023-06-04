@@ -15,7 +15,7 @@ int main()
 	gets(post);
 
 	rs = evaluate_post(post);
-	printf("Result of evaluation is %d ", rs);
+	printf("Result of evaluation is: %d ", rs);
 	getch();
 	return 0;
 }
