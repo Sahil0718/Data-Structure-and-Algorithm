@@ -119,8 +119,7 @@ int main(){
 	printf("ENTER THE NUMBER OF DISC: " );
 	scanf("%d" ,&n);
 	TOH(n,'L','R','C');
+        printf("\nTHE NUMBERS OF STEPS REQUIED IS: %d", count);
 	return 0;
-	printf("\nTHE NUMBERS OF STEPS REQUIED IS: %d", count);
-	
 }
 */
